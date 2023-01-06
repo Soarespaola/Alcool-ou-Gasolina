@@ -18,6 +18,7 @@
 		536F488229679EF00099EC54 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F488129679EF00099EC54 /* HomeScreen.swift */; };
 		536F4889296869610099EC54 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F4888296869600099EC54 /* CalculatorViewController.swift */; };
 		536F488C29686B0A0099EC54 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F488B29686B0A0099EC54 /* CalculatorScreen.swift */; };
+		536F488F29688D930099EC54 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F488E29688D930099EC54 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		536F488129679EF00099EC54 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		536F4888296869600099EC54 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		536F488B29686B0A0099EC54 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
+		536F488E29688D930099EC54 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = LoginAppArquiteturas/Alert.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		536F484C296717B60099EC54 /* LoginAppArquiteturas */ = {
 			isa = PBXGroup;
 			children = (
+				536F488D29688D0F0099EC54 /* Alert */,
 				536F48872968693F0099EC54 /* calculator */,
 				536F487D29679D380099EC54 /* Home */,
 				536F484D296717B60099EC54 /* AppDelegate.swift */,
@@ -163,6 +166,15 @@
 				536F488B29686B0A0099EC54 /* CalculatorScreen.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		536F488D29688D0F0099EC54 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				536F488E29688D930099EC54 /* Alert.swift */,
+			);
+			name = Alert;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +313,7 @@
 				536F484E296717B60099EC54 /* AppDelegate.swift in Sources */,
 				536F4850296717B60099EC54 /* SceneDelegate.swift in Sources */,
 				536F488C29686B0A0099EC54 /* CalculatorScreen.swift in Sources */,
+				536F488F29688D930099EC54 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
