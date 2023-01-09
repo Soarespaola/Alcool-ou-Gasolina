@@ -21,6 +21,7 @@
 		536F488F29688D930099EC54 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F488E29688D930099EC54 /* Alert.swift */; };
 		53F6B958296B93DC00986CE5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B957296B93DB00986CE5 /* ResultViewController.swift */; };
 		53F6B95B296B942600986CE5 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B95A296B942600986CE5 /* ResultScreen.swift */; };
+		53F6B95E296C75B000986CE5 /* UITextField + Extencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B95D296C75B000986CE5 /* UITextField + Extencion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		536F488E29688D930099EC54 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = LoginAppArquiteturas/Alert.swift; sourceTree = SOURCE_ROOT; };
 		53F6B957296B93DB00986CE5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		53F6B95A296B942600986CE5 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		53F6B95D296C75B000986CE5 /* UITextField + Extencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extencion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		536F484C296717B60099EC54 /* LoginAppArquiteturas */ = {
 			isa = PBXGroup;
 			children = (
+				53F6B95C296C756600986CE5 /* Extension */,
 				53F6B956296B93AC00986CE5 /* Result */,
 				536F488D29688D0F0099EC54 /* Alert */,
 				536F48872968693F0099EC54 /* calculator */,
@@ -197,6 +200,14 @@
 				53F6B95A296B942600986CE5 /* ResultScreen.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		53F6B95C296C756600986CE5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B95D296C75B000986CE5 /* UITextField + Extencion.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +347,7 @@
 				53F6B95B296B942600986CE5 /* ResultScreen.swift in Sources */,
 				536F484E296717B60099EC54 /* AppDelegate.swift in Sources */,
 				536F4850296717B60099EC54 /* SceneDelegate.swift in Sources */,
+				53F6B95E296C75B000986CE5 /* UITextField + Extencion.swift in Sources */,
 				536F488C29686B0A0099EC54 /* CalculatorScreen.swift in Sources */,
 				536F488F29688D930099EC54 /* Alert.swift in Sources */,
 			);
