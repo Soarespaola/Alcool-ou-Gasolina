@@ -19,6 +19,8 @@
 		536F4889296869610099EC54 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F4888296869600099EC54 /* CalculatorViewController.swift */; };
 		536F488C29686B0A0099EC54 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F488B29686B0A0099EC54 /* CalculatorScreen.swift */; };
 		536F488F29688D930099EC54 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F488E29688D930099EC54 /* Alert.swift */; };
+		53F6B958296B93DC00986CE5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B957296B93DB00986CE5 /* ResultViewController.swift */; };
+		53F6B95B296B942600986CE5 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B95A296B942600986CE5 /* ResultScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		536F4888296869600099EC54 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		536F488B29686B0A0099EC54 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
 		536F488E29688D930099EC54 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = LoginAppArquiteturas/Alert.swift; sourceTree = SOURCE_ROOT; };
+		53F6B957296B93DB00986CE5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		53F6B95A296B942600986CE5 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		536F484C296717B60099EC54 /* LoginAppArquiteturas */ = {
 			isa = PBXGroup;
 			children = (
+				53F6B956296B93AC00986CE5 /* Result */,
 				536F488D29688D0F0099EC54 /* Alert */,
 				536F48872968693F0099EC54 /* calculator */,
 				536F487D29679D380099EC54 /* Home */,
@@ -175,6 +180,23 @@
 			);
 			name = Alert;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		53F6B956296B93AC00986CE5 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B959296B93F400986CE5 /* Screen */,
+				53F6B957296B93DB00986CE5 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		53F6B959296B93F400986CE5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B95A296B942600986CE5 /* ResultScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +332,8 @@
 				536F4889296869610099EC54 /* CalculatorViewController.swift in Sources */,
 				536F488229679EF00099EC54 /* HomeScreen.swift in Sources */,
 				536F4852296717B60099EC54 /* HomeViewController.swift in Sources */,
+				53F6B958296B93DC00986CE5 /* ResultViewController.swift in Sources */,
+				53F6B95B296B942600986CE5 /* ResultScreen.swift in Sources */,
 				536F484E296717B60099EC54 /* AppDelegate.swift in Sources */,
 				536F4850296717B60099EC54 /* SceneDelegate.swift in Sources */,
 				536F488C29686B0A0099EC54 /* CalculatorScreen.swift in Sources */,
