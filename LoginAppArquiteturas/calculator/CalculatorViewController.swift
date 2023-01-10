@@ -17,9 +17,13 @@ class CalculatorViewController: UIViewController {
         view = screen
     }
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        hideKeyboardWhenTappedAround()
         alert = Alert.init(controller: self)
         screen?.delegate(delegate: self)
     }

@@ -75,14 +75,6 @@ class CalculatorScreen: UIView {
         return button
     }()
     
-    @objc func tappedCalulateButton() {
-        delegate?.tappedCalculateButton()
-    }
-    
-    @objc func tappedBackButton() {
-        delegate?.tappedBackButton()
-    }
-    
     lazy var backButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -91,7 +83,14 @@ class CalculatorScreen: UIView {
         return button
     }()
     
+    @objc func tappedCalulateButton() {
+        delegate?.tappedCalculateButton()
+    }
     
+    @objc func tappedBackButton() {
+        delegate?.tappedBackButton()
+    }
+  
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(backgroundCalculator)
