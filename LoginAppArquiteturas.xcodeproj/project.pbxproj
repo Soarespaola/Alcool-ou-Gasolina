@@ -22,6 +22,9 @@
 		536F488F29688D930099EC54 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F488E29688D930099EC54 /* Alert.swift */; };
 		53C4CE88296CA6CE00E58F8B /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4CE87296CA6CE00E58F8B /* RegisterScreen.swift */; };
 		53C4CE8A296CA75600E58F8B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4CE89296CA75600E58F8B /* RegisterViewController.swift */; };
+		53C4CE93296CE3F900E58F8B /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4CE92296CE3F900E58F8B /* UserProvider.swift */; };
+		53C4CE96296CE52500E58F8B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4CE95296CE52500E58F8B /* UserModel.swift */; };
+		53C4CE99296CF19F00E58F8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4CE98296CF19F00E58F8B /* Constants.swift */; };
 		53F6B958296B93DC00986CE5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B957296B93DB00986CE5 /* ResultViewController.swift */; };
 		53F6B95B296B942600986CE5 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B95A296B942600986CE5 /* ResultScreen.swift */; };
 		53F6B95E296C75B000986CE5 /* UITextField + Extencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B95D296C75B000986CE5 /* UITextField + Extencion.swift */; };
@@ -69,6 +72,9 @@
 		536F488E29688D930099EC54 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = LoginAppArquiteturas/Alert.swift; sourceTree = SOURCE_ROOT; };
 		53C4CE87296CA6CE00E58F8B /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		53C4CE89296CA75600E58F8B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		53C4CE92296CE3F900E58F8B /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
+		53C4CE95296CE52500E58F8B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		53C4CE98296CF19F00E58F8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		53F6B957296B93DB00986CE5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		53F6B95A296B942600986CE5 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 		53F6B95D296C75B000986CE5 /* UITextField + Extencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extencion.swift"; sourceTree = "<group>"; };
@@ -134,6 +140,7 @@
 		536F484C296717B60099EC54 /* LoginAppArquiteturas */ = {
 			isa = PBXGroup;
 			children = (
+				53C4CE97296CF17200E58F8B /* Infrastructure */,
 				53C4CE91296CE2DC00E58F8B /* Source */,
 				53C4CE8D296CE2A000E58F8B /* API */,
 				53C4CE85296CA68100E58F8B /* Register */,
@@ -227,6 +234,7 @@
 		53C4CE8D296CE2A000E58F8B /* API */ = {
 			isa = PBXGroup;
 			children = (
+				53C4CE94296CE50D00E58F8B /* Model */,
 				53C4CE90296CE2C700E58F8B /* Provider */,
 				53C4CE8F296CE2BE00E58F8B /* Manager */,
 				53C4CE8E296CE2B600E58F8B /* Business */,
@@ -251,6 +259,7 @@
 		53C4CE90296CE2C700E58F8B /* Provider */ = {
 			isa = PBXGroup;
 			children = (
+				53C4CE92296CE3F900E58F8B /* UserProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -264,6 +273,22 @@
 				536F4858296717BB0099EC54 /* LaunchScreen.storyboard */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		53C4CE94296CE50D00E58F8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53C4CE95296CE52500E58F8B /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53C4CE97296CF17200E58F8B /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				53C4CE98296CF19F00E58F8B /* Constants.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		53F6B956296B93AC00986CE5 /* Result */ = {
@@ -560,11 +585,14 @@
 				536F4852296717B60099EC54 /* HomeViewController.swift in Sources */,
 				53F6B958296B93DC00986CE5 /* ResultViewController.swift in Sources */,
 				53F6B95B296B942600986CE5 /* ResultScreen.swift in Sources */,
+				53C4CE99296CF19F00E58F8B /* Constants.swift in Sources */,
 				536F484E296717B60099EC54 /* AppDelegate.swift in Sources */,
 				536F4850296717B60099EC54 /* SceneDelegate.swift in Sources */,
 				53F6B95E296C75B000986CE5 /* UITextField + Extencion.swift in Sources */,
 				53C4CE8A296CA75600E58F8B /* RegisterViewController.swift in Sources */,
+				53C4CE93296CE3F900E58F8B /* UserProvider.swift in Sources */,
 				536F488C29686B0A0099EC54 /* CalculatorScreen.swift in Sources */,
+				53C4CE96296CE52500E58F8B /* UserModel.swift in Sources */,
 				536F488F29688D930099EC54 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

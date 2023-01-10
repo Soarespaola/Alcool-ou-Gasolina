@@ -9,6 +9,7 @@ target 'LoginAppArquiteturas' do
 
 pod 'IQKeyboardManagerSwift'
 pod 'lottie-ios'
+pod 'FirebaseAuth'
 
   target 'LoginAppArquiteturasTests' do
     inherit! :search_paths
